@@ -3,7 +3,7 @@ import 'package:clock/clock/clock.dart';
 import 'package:clock/clock/clock_text.dart';
 import 'screen/first_screen.dart';
 import 'screen/second_screen.dart';
-
+import 'screen/third_screen.dart';
 void main() => runApp(new MyApp());
 
 class MyApp extends StatelessWidget {
@@ -76,7 +76,7 @@ class AppClock extends StatelessWidget{
                             ),
 
                             Tab(
-                                text: "PROFILE",
+                                text: "TO DO",
                                 icon: Icon(
                                     Icons.supervised_user_circle,
                                     size: 40
@@ -98,7 +98,8 @@ class AppClock extends StatelessWidget{
                 Center(child: FirstTab(),
                 ),
 
-                Text("Third Screen")
+                Center(child: ThirdTab(),
+                ),
               ],
             )
           )

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:clock/Calendar//flutter_calendar.dart';
+import 'package:clock/Calendar/flutter_calendar.dart';
 
 class SecondTab extends StatelessWidget {
   void handleNewDate(date) {
