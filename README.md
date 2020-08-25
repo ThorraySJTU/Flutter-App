@@ -1,5 +1,7 @@
 # Flutter Clock - ByteDance Project
-
+![Flutter](https://img.shields.io/badge/Framework-Flutter-3cc6fd?logo=flutter)
+![Dart](https://img.shields.io/badge/Language-Dart-0c458b?logo=dart)
+![软件 License](https://img.shields.io/badge/license-MIT许可证/-blue.svg?%20style=flat-square)
 ## 介绍
 
 这是**玩转客户端-字节跳动训练营**的项目，课题内容为Flutter时钟挑战，用flutter实现一个Android/ios设备上的炫酷的时钟App。
