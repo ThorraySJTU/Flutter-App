@@ -1,5 +1,38 @@
 # Flutter Clock - ByteDance Project
 
+## 介绍
+
+这是**玩转客户端-字节跳动训练营**的项目，课题内容为Flutter时钟挑战，用flutter实现一个Android/ios设备上的炫酷的时钟App。
+
+- 基础功能
+    - 实现基本的时钟功能、可以准确的看到当前时间、计时准确无误 
+    - 表盘整体简洁美观，可以是机械表盘或者数码显示、或者两者兼备 
+    - 可以有多个界面，界面间跳转裸机可以自由设计 
+    - Android或者ios任一平台运行即可 
+- 进阶功能
+    - 表盘设计精美，可以加上一些动画特效
+    - 支持时区切换等其他便捷功能
+    - 实现定时器或者闹钟
+    - 实现天气显示
+    - 自由发挥创意
+    	 - TO DO LIST 
+	 	- Canlendar 
+
+## 安装
+
+可采用 `git clone https://github.com/ThorraySJTU/Flutter-App.git`方式对代码进行下载，或者直接Download ZIP
+
+## 运行
+
+通过Android Studio打开模拟器后，在Flutter-App目录下运行`flutter run`即可。
+
+## 依赖（pubspec.yaml）:
+  - flutter:
+    - sdk: flutter
+  - intl: ^0.15.0
+  - tuple: ^1.0.1
+  - date_utils: ^0.1.0
+
 ## lib结构（应用源文件） 
 
 ```css
@@ -132,4 +165,3 @@ void nextMonth()函数、void previousMonth()函数、void nextWeek()函数、vo
 :triangular_flag_on_post:  增加闹钟、纪念日等功能
 
 :triangular_flag_on_post: 优化美观界面，目前风格简约但美感不足
-
